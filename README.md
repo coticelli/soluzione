@@ -21,9 +21,7 @@ Quando si sviluppa un bot Telegram, esistono due modi principali per ricevere ag
 ### Il Problema Specifico
 Quando si utilizza un servizio di hosting gratuito come Render, il server può andare in "sleep" dopo un periodo di inattività. Con il polling, il bot smette di funzionare quando il server va in sleep mode. Questo è il motivo per cui il webhook è preferibile per deployment su cloud.
 
-## Le Soluzioni
-
-### Soluzione 1: Polling (per esecuzione locale o server sempre attivi)
+## La Soluzione
 
 ```python
 from telegram import Update
