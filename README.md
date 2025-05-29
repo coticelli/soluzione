@@ -1,4 +1,4 @@
-# Telegram Bot: Polling vs Webhook Solution
+# Telegram Bot: Polling vs Webhook Soluzione
 
 ## Il Problema
 
